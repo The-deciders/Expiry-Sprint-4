@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1947A3A726588F1000970191 /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947A3A526588F1000970191 /* UserInfoHeader.swift */; };
+		1947A3A826588F1000970191 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947A3A626588F1000970191 /* SettingsCell.swift */; };
+		1947A3AD26588F3500970191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947A3AC26588F3400970191 /* ViewController.swift */; };
+		1947A3B2265892F900970191 /* SettingSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947A3B1265892F900970191 /* SettingSections.swift */; };
 		1949E6EF263A28700015B785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E6EE263A28700015B785 /* AppDelegate.swift */; };
 		1949E6F1263A28700015B785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E6F0263A28700015B785 /* SceneDelegate.swift */; };
 		1949E6F6263A28700015B785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1949E6F4263A28700015B785 /* Main.storyboard */; };
@@ -45,6 +49,10 @@
 /* Begin PBXFileReference section */
 		110495A2C4CB34A12688DEEB /* Pods_Expiry_ExpiryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Expiry_ExpiryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11EEF0193F2CE3B4AD0CA745 /* Pods-ExpiryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpiryTests.debug.xcconfig"; path = "Target Support Files/Pods-ExpiryTests/Pods-ExpiryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1947A3A526588F1000970191 /* UserInfoHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoHeader.swift; sourceTree = "<group>"; };
+		1947A3A626588F1000970191 /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		1947A3AC26588F3400970191 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../Downloads/SettingsTemplate-master/SettingsTemplate/Controller/ViewController.swift"; sourceTree = "<group>"; };
+		1947A3B1265892F900970191 /* SettingSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSections.swift; sourceTree = "<group>"; };
 		1949E6EB263A28700015B785 /* Expiry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expiry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1949E6EE263A28700015B785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1949E6F0263A28700015B785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,8 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				1949E6ED263A28700015B785 /* Expiry */,
-				1949E704263A28730015B785 /* ExpiryTests */,
 				1949E70F263A28730015B785 /* ExpiryUITests */,
+				1949E704263A28730015B785 /* ExpiryTests */,
 				1949E6EC263A28700015B785 /* Products */,
 				84CA2918370F225049AB3B93 /* Pods */,
 				F06E84AF4F710C9F9936DC53 /* Frameworks */,
@@ -138,6 +146,10 @@
 				1949E75C264F574F0015B785 /* AddFoodViewController.swift */,
 				1949E76C264F5EB10015B785 /* YourFoodViewController.swift */,
 				1949E771264F5EE50015B785 /* PostCell.swift */,
+				1947A3A626588F1000970191 /* SettingsCell.swift */,
+				1947A3A526588F1000970191 /* UserInfoHeader.swift */,
+				1947A3AC26588F3400970191 /* ViewController.swift */,
+				1947A3B1265892F900970191 /* SettingSections.swift */,
 			);
 			path = Expiry;
 			sourceTree = "<group>";
@@ -422,9 +434,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1949E75D264F574F0015B785 /* AddFoodViewController.swift in Sources */,
+				1947A3B2265892F900970191 /* SettingSections.swift in Sources */,
 				1949E76D264F5EB10015B785 /* YourFoodViewController.swift in Sources */,
 				1949E7332645F3630015B785 /* LoginViewController.swift in Sources */,
 				1949E73D2645F4C40015B785 /* RegisterViewController.swift in Sources */,
+				1947A3AD26588F3500970191 /* ViewController.swift in Sources */,
+				1947A3A826588F1000970191 /* SettingsCell.swift in Sources */,
+				1947A3A726588F1000970191 /* UserInfoHeader.swift in Sources */,
 				1949E6EF263A28700015B785 /* AppDelegate.swift in Sources */,
 				1949E6F1263A28700015B785 /* SceneDelegate.swift in Sources */,
 				1949E74226462C5E0015B785 /* ProfileViewController.swift in Sources */,
