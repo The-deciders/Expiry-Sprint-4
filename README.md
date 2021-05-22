@@ -27,11 +27,11 @@ Our app, Expiry, will allow users to track the expiration date of their food ite
 
 **Required Must-have Stories**
 
-* User logs into their account to access their food lists and preference settings - ( Half Way Completed )
-* User can view the foods they have listen and click into it to get more specific details - ( Started )
+* User logs into their account to access their food lists and preference settings - ( Finished )
+* User can view the foods they have listen and click into it to get more specific details - ( Finished )
 * User can view the foods that are going to expire soon (time depends on user preference) - ( Started )
-* Profile pages for each user that can track various things - ( Started )
-* Settings for notifications, general, etc - ( Started )
+* Profile pages for each user that can track various things - ( Finished )
+* Settings for notifications, general, etc - ( Half Way Completed )
 
 **Optional Nice-to-have Stories**
 
